@@ -61,7 +61,7 @@
                                 </svg></div>
                             <div class="px-2">
                                 <h6 class="fw-bold mb-0">Email</h6>
-                                <p class="text-muted mb-0">info@example.com</p>
+                                <p class="text-muted mb-0">takeoff@gmail.com</p>
                             </div>
                         </div>
                         <div class="d-flex align-items-center p-3">
@@ -100,7 +100,7 @@
                     <p>Batik Air<br><br>Lion Air<br><br>Garuda Indonesia<br><br>Citilink<br><br>Sriwijaya Air<br><br>Wings Air</p>
                 </div>
                 <div class="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last">
-                    <div class="fw-bold d-flex align-items-center mb-2"></div><img src="assets/img/logo1.png" style="width: 119px;">
+                    <div class="fw-bold d-flex align-items-center mb-2"></div><img src={{ asset ('import/assets/img/logo1.png') }} style="width: 119px;">
                     <p>Jl. Pete Selatan 1 Kecamatan Gunung Pati, Kota Semarang, Jawa Tengah 50229</p>
                     <p>+62&nbsp;851-5659-2551 Admin 1</p>
                     <p>+62&nbsp;812-8707-2005 Admin 2</p>
