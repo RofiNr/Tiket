@@ -18,6 +18,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
 //HOMEPAGE
 Route::get('/homepage', function () {
     return view('homepage');
@@ -28,5 +32,6 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/sesi', [SessionController::class, 'index']);
-Route::post('/sesi/login', [SessionController::class, 'login']);
+Route::get('/sesi' , [SessionController::class, 'index']);
+Route::get('/sesi/logout' , [SessionController::class, 'logout']);
+Route::post('/sesi/masuk' , [SessionController::class, 'login']);

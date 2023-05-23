@@ -17,11 +17,11 @@
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="/"><img src="{{ asset ('import/assets/img/logo1.png') }}" style="width: 155px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="homepage">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="destination">Destination</a></li>
                     <li class="nav-item"><a class="nav-link" href="contacts">Contacts</a></li>
-                </ul><a class="btn btn-primary shadow" role="button" href="signup">Sign up</a>
+                </ul><a class="btn btn-primary shadow" role="button" href="/sesi">Sign up</a>
             </div>
         </div>
     </nav>
