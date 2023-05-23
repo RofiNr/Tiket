@@ -28,5 +28,24 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/sesi', [SessionController::class, 'index']);
-Route::post('/sesi/login', [SessionController::class, 'login']);
+//CONTACTS
+Route::get('/destination', function () {
+    return view('destination');
+});
+
+//CONTACTS
+Route::get('/contacts', function () {
+    return view('contacts');
+});
+
+Route::get('/', function () {
+    return view('homepage', ['title' => 'Homepage']);
+})->name('homepage');
+
+Route::get('register', [UserController::class, 'register'])->name('register');
+Route::post('register', [UserController::class, 'register_action'])->name('register.action');
+Route::get('login', [UserController::class, 'login'])->name('login');
+Route::post('login', [UserController::class, 'login_action'])->name('login.action');
+Route::get('password', [UserController::class, 'password'])->name('password');
+Route::post('password', [UserController::class, 'password_action'])->name('password.action');
+Route::get('logout', [UserController::class, 'logout'])->name('logout');
