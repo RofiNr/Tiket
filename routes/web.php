@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('homepage');
+Route::get('/index', function () {
+    return view('index');
 });
 
 //HOMEPAGE
@@ -39,8 +39,8 @@ Route::get('/contacts', function () {
 });
 
 Route::get('/', function () {
-    return view('homepage', ['title' => 'Homepage']);
-})->name('homepage');
+    return view('index', ['title' => 'Homepage']);
+})->name('index');
 
 Route::get('register', [UserController::class, 'register'])->name('register');
 Route::post('register', [UserController::class, 'register_action'])->name('register.action');
