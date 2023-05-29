@@ -22,7 +22,7 @@
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
-                                        <h4 class="text-dark mb-4">Welcome Back!</h4>
+                                        <h4 class="text-light mb-4">Welcome Back!</h4>
                                     </div>
                                     <form action="/sesi/masuk" method = "POST" class="user">
                                         @csrf

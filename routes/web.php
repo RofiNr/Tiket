@@ -33,5 +33,5 @@ Route::get('/about', function () {
 });
 
 Route::get('/sesi' , [SessionController::class, 'index']);
-Route::get('/sesi/logout' , [SessionController::class, 'logout']);
 Route::post('/sesi/masuk' , [SessionController::class, 'login']);
+Route::get('/sesi/logout' , [SessionController::class, 'logout']);
